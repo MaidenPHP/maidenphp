@@ -1,0 +1,31 @@
+<div>
+    <h1> All the MEMES </h1>
+
+    <div id="button1"> button here </div>
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <th> Title </th>
+                <th> Description </th>
+                <th> Photo </th>
+                <th> Show </th>
+                <th> Edit </th>
+                <th> Delete </th>
+            </thead>
+            <tbody>
+                <% _.each(memes, function(meme) { %>
+                    <tr>
+                        <td><%= meme.title %></td>
+                        <td><%= meme.description %></td>
+                        <td><img src="<%= meme.photo_url %>"/></td>
+                        <td><a href="#/memes/<%= meme.id %>"> SHOW </a></td>
+                        <td><a href="#/memes/edit/<%= meme.id %>"> EDIT </a></td>
+                        <td> DELETE </td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
+
+</div>

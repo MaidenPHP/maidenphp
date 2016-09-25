@@ -1,0 +1,27 @@
+{
+  "name": "yichen_learning",
+  "version": "1.0.0",
+  "description": "- Angularjs 1\r - JQuery\r - CSS / SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yichenzhu1337/dot_net_learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yichenzhu1337/dot_net_learning/issues"
+  },
+  "homepage": "https://github.com/yichenzhu1337/dot_net_learning#readme",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0",
+    "lodash": "^4.2.1",
+    "requirejs": "^2.1.22",
+    "requirejs-text": "^2.0.12"
+  }
+}

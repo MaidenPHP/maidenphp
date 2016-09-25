@@ -1,1 +1,24 @@
-<?php
+<html>
+	<head>
+		<title> My Backbone Application </title>
+		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="app/css/app.css">
+	</head>
+
+	<body>
+
+		<!-- Navbar -->
+		<ul>
+			<li><a href="#/"> home </a></li>
+			<li><a href="#/memes"> memes </a></li>
+			<li><a href="#/memes/create"> create a meme </a></li>
+			<li><a href="#/user"> user </a></li>
+			<li><a href="#/user"> login </a></li>
+			<li><a href="#/user"> register </a></li>
+		</ul>
+
+		<div class="container"></div>
+
+		<script src="node_modules/requirejs/require.js" data-main="app/app.js"></script>
+	</body>
+</html>

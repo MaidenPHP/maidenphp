@@ -1,12 +1,3 @@
-Documentation
-===========================
-
-api
-    Modules
-
-
-
-
 TABLE OF CONTENTS
 ======================
 libraries
