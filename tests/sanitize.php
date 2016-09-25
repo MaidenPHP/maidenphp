@@ -1,8 +1,9 @@
 <?php
 	
-	function escape($string){
-		return htmlentities($string, ENT_QUOTES, 'UFT-8');
+class ExampleTest extends PHPUnit_Framework_TestCase
+{
+	public function setup()
+	{
+		$this->assertTrue(true);
 	}
-
-
-?>
+}
