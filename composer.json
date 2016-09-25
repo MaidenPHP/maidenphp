@@ -1,7 +1,6 @@
 {
   "name": "maiden/maiden",
   "description": "The best php framework in the world.",
-  "type": "project",
   "keywords": [
     "maidenphp",
     "mvc framework"
