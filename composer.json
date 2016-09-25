@@ -1,0 +1,39 @@
+{
+  "name": "maiden/maiden",
+  "description": "The best php framework in the world.",
+  "type": "project",
+  "keywords": [
+    "maidenphp",
+    "mvc framework"
+  ],
+  "homepage": "https://www.maiden.com",
+  "time": "1994-08-23",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yi Chen Zhu",
+      "email": "yichen@chosensolutions.ca",
+      "homepage": "http://www.chosensolutions.ca",
+      "role": "Creator"
+    }
+  ],
+  "support": {
+    "email": "yichen@chosensolutions.ca",
+    "irc": "irc://irc.freenode.org/composer"
+  },
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "API\\": [
+        "api/"
+      ]
+    },
+    "files": [
+      ""
+    ],
+    "classmap": [
+    ]
+  }
+}

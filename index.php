@@ -1,1 +1,3 @@
-// bootstrap file
+<?php
+
+require 'vendor/autoload.php';
