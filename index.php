@@ -2,4 +2,4 @@
 
 require 'vendor/autoload.php';
 
-echo 'hey mother1';
+echo 'app started';

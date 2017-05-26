@@ -1,0 +1,21 @@
+#! /usr/bin/env/php
+<?php
+
+require 'vendor/autoload.php';
+
+echo '----------------------------------------';
+echo PHP_EOL;
+echo '----- Welcome to the MaidenPHP CLI -----';
+echo PHP_EOL;
+echo '----------------------------------------';
+echo PHP_EOL;
+
+$commands = [
+    'create' => '<your command1>',
+    'server' => '<your server>',
+    'vagrant' => '<your shit>',
+];
+
+foreach ($commands as $command => $description) {
+    echo " * $command - $description", PHP_EOL;
+}
